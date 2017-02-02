@@ -3,6 +3,13 @@
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 <title>Ransom</title>
+<script>$(document).ready(function(){
+  $('body').mousemove(function(e){
+    var x = -(e.pageX + this.offsetLeft) / 20;
+    var y = -(e.pageY + this.offsetTop) / 20;
+    $(this).css('background-position', x + 'px ' + y + 'px');
+  });    
+        });</script>
 <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 <link href="css" rel="stylesheet" type="text/css">
 <link href="style.css" rel="stylesheet" type="text/css">

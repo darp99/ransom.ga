@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Ransom</title>
+<link href="./Ransom_files/css" rel="stylesheet" type="text/css">
+<link href="./Ransom_files/style.css" rel="stylesheet" type="text/css">
+<script src="./Ransom_files/jquery-1.10.2.js.download"></script><style type="text/css">.cf-hidden { display: none; } .cf-invisible { visibility: hidden; }</style>
+</head>
+<body>
+<script type="text/javascript">
+        $(window).load(function () {
+            setTimeout(function () {
+                $("#overlay").fadeOut("slow", function () {
+                    $("#gravityAudio")[0].play();
+                    $("#gravityAudio")[0].volume = 0;
+                    $("#gravityAudio").animate({
+                        volume: 1
+                    }, 5000);
+                });
+            }, 4000);
+        });
+    </script>
+<div id="overlay">
+<div class="wrap">
+<div class="bg">
+<div class="loading">
+<span class="title">LOADING...</span>
+<span class="text">RANSOM.GA</span>
+</div>
+</div>
+</div>
+</div>
+<div class="flexbox"></div>
+<div class="container">
+<h1>Ransom</h1>
+</div>
+
+
+</body></html>
